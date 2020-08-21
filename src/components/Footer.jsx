@@ -2,6 +2,9 @@
 import React from 'react';
 
 function Footer() {
+
+    const year = new Date().getFullYear();
+
     return(
         <footer>
             <div class="socials">
@@ -32,7 +35,7 @@ function Footer() {
                 <p>Designed and Coded by: Katie Tensfeldt</p>
             </div>
             <div class="copyright">
-                <p class="copyright">&copy; Copyright 2020 Kathleen Tensfeldt</p>
+                <p class="copyright">&copy; Copyright {year} Kathleen Tensfeldt</p>
             </div>
         </footer>
     )
