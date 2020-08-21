@@ -1,0 +1,266 @@
+/*======================================*/
+/* General Site Set Up */
+/*======================================*/
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 16px;
+	height: 100vh;
+	background-color:#dbdbdb;
+	text-align: center;
+	color: #393e46;
+}
+
+/*======================================*/
+/* Reuseable Components */
+/*======================================*/
+
+.button {
+	background-color: #89c9b8;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	transition: background-color 0.2s;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-ms-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+}
+
+.button:hover {
+	background-color: #e1ffc2;
+}
+
+/*======================================*/
+/* Headers */
+/*======================================*/
+h1 {
+	font-size: 6em;
+	text-align: center;
+	font-family: 'Mr De Haviland', 'Noto Sans JP', sans-serif;
+}
+
+h2 {
+	color: #092532;
+	font-size: 250%;
+}
+
+h5 {
+	font-size: 175%;
+}
+
+/*======================================*/
+/* Header Section */
+/*======================================*/
+
+header {
+	background-color: #092532;
+	background-image: linear-gradient(#092532d7, #092532d7), url(images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #dbdbdb;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 7% 15%;
+}
+
+.title {
+	width: 100%;
+	padding-left: 20px;;
+
+}
+
+.quote,
+.credit {
+	color: #e1ffc2;
+}
+
+.credit {
+	font-size: 90%;
+}
+
+.quotation {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*===== Nav-Bar =====*/
+.full-nav {
+	width: 100%;
+	align-items: baseline;
+}
+
+.nav-item {
+	align-items: stretch;
+}
+
+.navi {
+	font-size: 20px;
+	margin: 30px 50px auto;
+	transition: color 0.2s, border-bottom 0.2s;
+	-webkit-transition: color 0.2s, border-bottom 0.2s;
+	-moz-transition: color 0.2s, border-bottom 0.2s;
+	-ms-transition: color 0.2s, border-bottom 0.2s;
+	-o-transition: color 0.2s, border-bottom 0.2s;
+}
+
+#home-link:link,
+#home-link:visited,
+#gal-link:link,
+#gal-link:visited,
+#cont-link:link,
+#cont-link:visited {
+	color: #89c9b8;
+}
+
+#home-link:hover,
+#gal-link:hover,
+#cont-link:hover,
+.active {
+	color: #dbdbdb;
+	border-bottom: 2px solid #dbdbdb;
+}
+
+
+/*========================================================================================*/
+/* Index.HTML Page */
+/*========================================================================================*/
+
+/*======================================*/
+/* About Section */
+/*======================================*/
+
+.basics {
+	padding: 7% 15%;
+}
+
+.basic-list {
+	list-style: none;
+}
+
+.basic-item {
+	margin-top: 10%;
+	padding: 2% 5%;
+}
+
+.descrip {
+	color: #092532;
+	font-size: 115%;
+}
+
+.basic-list ion-icon {
+	font-size: 450%;
+	margin-bottom: 5%;
+	color: #89c9b8;
+}
+
+/*======================================*/
+/* Carousel Section */
+/*======================================*/
+.comp-image, 
+.colab-image, 
+.color-image {
+	filter: brightness(40%);
+	-webkit-filter: brightness(40%);
+}
+
+.car-caption {
+	font-size: 125%;
+}
+
+/*======================================*/
+/* Languages Section */
+/*======================================*/
+.languages {
+	padding: 7% 15%;
+}
+
+.lang-title {
+	margin-bottom: 7%;
+}
+
+/*========================================================================================*/
+/* Gallery.HTML Page */
+/*========================================================================================*/
+
+
+/*========================================================================================*/
+/* Contact.HTML Page */
+/*========================================================================================*/
+#form {
+	padding: 7% 15%;
+}
+
+/*========================================================================================*/
+/* Footers */
+/*========================================================================================*/
+
+footer {
+	background-color: #393e46;
+	padding: 2% 5%;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+.socials {
+	text-align: center;
+	
+}
+
+.social-list li {
+	display: inline-block;
+	list-style: none;
+	padding: 5px 7px;
+}
+
+.site {
+	color: #e1ffc2;
+	font-size: 25px;
+	transition: color 0.2s, border-bottom 0.2s;
+	-webkit-transition: color 0.2s, border-bottom 0.2s;
+	-moz-transition: color 0.2s, border-bottom 0.2s;
+	-ms-transition: color 0.2s, border-bottom 0.2s;
+	-o-transition: color 0.2s, border-bottom 0.2s;
+}
+
+.logo-linked:hover {
+	color: #0077b5;
+}
+.logo-git:hover {
+	color: #00405d;
+}
+.logo-drib:hover {
+	color: #ea4c89;
+}
+.logo-code:hover {
+	color: #212121;
+}
+
+.logo-linked:hover, 
+.logo-git:hover, 
+.logo-drib:hover, 
+.logo-code:hover {
+	border-bottom: 2px solid white;
+}
+
+.author {
+	color: #e1ffc2;
+	font-weight: 100;
+}
+
+.copyright {
+	color: #e1ffc2;
+	font-weight: 100;
+	font-size: 12px;
+}
+
+
+/*========================================================================================*/
