@@ -104,11 +104,7 @@ header {
 .navi {
 	font-size: 20px;
 	margin: 30px 50px auto;
-	transition: color 0.2s, border-bottom 0.2s;
-	-webkit-transition: color 0.2s, border-bottom 0.2s;
-	-moz-transition: color 0.2s, border-bottom 0.2s;
-	-ms-transition: color 0.2s, border-bottom 0.2s;
-	-o-transition: color 0.2s, border-bottom 0.2s;
+	color: #89c9b8;
 }
 
 #home-link:link,
@@ -123,14 +119,16 @@ header {
 #home-link:hover,
 #gal-link:hover,
 #cont-link:hover,
-.active {
+#home-link:active,
+#gal-link:active,
+#cont-link:active {
 	color: #dbdbdb;
 	border-bottom: 2px solid #dbdbdb;
 }
 
 
 /*========================================================================================*/
-/* Index.HTML Page */
+/* HOME Page */
 /*========================================================================================*/
 
 /*======================================*/

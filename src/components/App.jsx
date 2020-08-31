@@ -1,14 +1,13 @@
 import React from 'react';
-
+import Routes from '../routes';
 import Header from './Header';
-import Basics from './Basics';
 import Footer from './Footer';
 
 function App() {
     return(
         <div>
             <Header />
-            <Basics />
+            <Routes />
             <Footer />
         </div>
     )
