@@ -10,7 +10,7 @@ import './Portfolio.css';
 export default function Portfolio() {
 	return (
 		<div className='port'>
-			<Section header='React Projects' description=''>
+			<Section header='React Projects'>
 				<Container>
 					<Row>
 						<Col>
@@ -19,16 +19,23 @@ export default function Portfolio() {
 								title='Flicks App'
 								img='./images/flicksimg.png'
 								name='flicks website'
+								description='Web application designed to consolidate all your streaming service watch
+				lists, as well as manage all your viewing recommendations.'
 							/>
-							<PortfolioItem />
-							<PortfolioItem />
+						</Col>
+						<Col>
+							<PortfolioItem
+								link='https://videos-hooks-4saszwk41.vercel.app/'
+								title='Video Search'
+								name='simple video search site'
+								description='Simple video search app built with YouTube API.'
+							/>
 						</Col>
 					</Row>
 				</Container>
 			</Section>
-			<Section header='Designs' description=''>
-				Websites here
-			</Section>
+			<Section header='Designs'>Websites here</Section>
+			<Section header='SASS Builds'>Websites here</Section>
 		</div>
 	);
 }

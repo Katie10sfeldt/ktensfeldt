@@ -26,3 +26,21 @@
 .link:active {
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+.portfolio-description {
+	margin-top: 15px;
+	width: 95%;
+}
+
+.page {
+	background: white;
+	display: inline-block;
+	border-radius: 25px;
+	width: 500px;
+	padding: 15px 0;
+	margin-right: 20px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
