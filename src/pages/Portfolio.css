@@ -1,0 +1,28 @@
+.portfolio-image {
+	width: 350px;
+	border: 2px solid #393e46;
+	margin-bottom: 20px;
+}
+
+.link:link,
+.link:visited {
+	color: #59887b;
+	text-decoration: none;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.link:hover {
+	color: #89c9b8;
+	background-color: #e1ffc2;
+	border-radius: 50px;
+	padding: 10px 25px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.link:active {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

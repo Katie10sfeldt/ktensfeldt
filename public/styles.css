@@ -6,7 +6,7 @@ body {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 16px;
 	height: 100vh;
-	background-color:#dbdbdb;
+	background-color: #dbdbdb;
 	text-align: center;
 	color: #393e46;
 }
@@ -73,8 +73,7 @@ header {
 
 .title {
 	width: 100%;
-	padding-left: 20px;;
-
+	padding-left: 20px;
 }
 
 .quote,
@@ -126,76 +125,6 @@ header {
 	border-bottom: 2px solid #dbdbdb;
 }
 
-
-/*========================================================================================*/
-/* HOME Page */
-/*========================================================================================*/
-
-/*======================================*/
-/* About Section */
-/*======================================*/
-
-.basics {
-	padding: 5% 10%;
-}
-
-.basic-list {
-	list-style: none;
-}
-
-.basic-item {
-	margin-top: 5%;
-	padding: 2% 5%;
-}
-
-.descrip {
-	color: #092532;
-	font-size: 115%;
-}
-
-.basic-list ion-icon {
-	font-size: 450%;
-	margin-bottom: 5%;
-	color: #89c9b8;
-}
-
-/*======================================*/
-/* Carousel Section */
-/*======================================*/
-.comp-image, 
-.colab-image, 
-.color-image {
-	filter: brightness(40%);
-	-webkit-filter: brightness(40%);
-}
-
-.car-caption {
-	font-size: 125%;
-}
-
-/*======================================*/
-/* Languages Section */
-/*======================================*/
-.languages {
-	padding: 7% 15%;
-}
-
-.lang-title {
-	margin-bottom: 7%;
-}
-
-/*========================================================================================*/
-/* Gallery.HTML Page */
-/*========================================================================================*/
-
-
-/*========================================================================================*/
-/* Contact.HTML Page */
-/*========================================================================================*/
-#form {
-	padding: 7% 15%;
-}
-
 /*========================================================================================*/
 /* Footers */
 /*========================================================================================*/
@@ -210,7 +139,6 @@ footer {
 
 .socials {
 	text-align: center;
-	
 }
 
 .social-list li {
@@ -242,9 +170,9 @@ footer {
 	color: #212121;
 }
 
-.logo-linked:hover, 
-.logo-git:hover, 
-.logo-drib:hover, 
+.logo-linked:hover,
+.logo-git:hover,
+.logo-drib:hover,
 .logo-code:hover {
 	border-bottom: 2px solid white;
 }
@@ -259,6 +187,5 @@ footer {
 	font-weight: 100;
 	font-size: 12px;
 }
-
 
 /*========================================================================================*/
