@@ -98,6 +98,7 @@ header {
 
 .nav-item {
 	align-items: stretch;
+	color: #89c9b8;
 }
 
 .navi {
@@ -106,23 +107,27 @@ header {
 	color: #89c9b8;
 }
 
-#home-link:link,
-#home-link:visited,
-#gal-link:link,
-#gal-link:visited,
-#cont-link:link,
-#cont-link:visited {
+.nav-link:link,
+.nav-link:visited {
 	color: #89c9b8;
+	text-decoration: none;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
 }
 
-#home-link:hover,
-#gal-link:hover,
-#cont-link:hover,
-#home-link:active,
-#gal-link:active,
-#cont-link:active {
+.nav-link:hover {
 	color: #dbdbdb;
-	border-bottom: 2px solid #dbdbdb;
+	background-color: #2f4650;
+	border-radius: 50px;
+	padding: 10px 25px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:active {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /*========================================================================================*/

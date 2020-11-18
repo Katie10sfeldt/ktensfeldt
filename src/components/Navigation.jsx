@@ -19,22 +19,22 @@ function Navigation() {
 			<div className='collapse navbar-collapse' id='navbarNav'>
 				<ul className='full-nav navbar-nav'>
 					<li className='nav-item navi'>
-						<Link id='home-link' to='/'>
+						<Link className='nav-link' to='/'>
 							Home
 						</Link>
 					</li>
 					<li className='nav-item navi'>
-						<Link id='gal-link' to='/About'>
+						<Link className='nav-link' to='/About'>
 							About
 						</Link>
 					</li>
 					<li className='nav-item navi'>
-						<Link id='gal-link' to='/Portfolio'>
+						<Link className='nav-link' to='/Portfolio'>
 							Portfolio
 						</Link>
 					</li>
 					<li className='nav-item navi'>
-						<Link id='cont-link' to='/Contact'>
+						<Link className='nav-link' to='/Contact'>
 							Contact
 						</Link>
 					</li>
