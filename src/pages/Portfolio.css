@@ -1,7 +1,8 @@
 .portfolio-image {
-	width: 350px;
 	border: 2px solid #393e46;
-	margin-bottom: 20px;
+	width: 95%;
+	height: auto;
+	margin-bottom: 10px;
 }
 
 .link:link,
@@ -34,13 +35,7 @@
 
 .page {
 	background: white;
-	display: inline-block;
 	border-radius: 25px;
-	width: 500px;
-	padding: 15px 0;
-	margin-right: 20px;
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	-ms-border-radius: 25px;
-	-o-border-radius: 25px;
+	padding: 5% 2.5%;
+	margin: 20px;
 }
