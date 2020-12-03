@@ -26,7 +26,7 @@ export default function Portfolio() {
 								title='Video Search *'
 								img='./images/video.png'
 								name='simple video search site'
-								description='Simple video search app built with YouTube API. Simply look for your video and enjoy! *'
+								description='Simple video search app built with YouTube API. Simply look for your video and enjoy!'
 							/>
 						</div>
 					</div>
