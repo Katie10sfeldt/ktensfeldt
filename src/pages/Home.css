@@ -1,1 +1,44 @@
+.katie {
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
+.homePhoto--image {
+	width: 75%;
+	border-radius: 50px;
+}
+
+.homePhoto {
+	width: 50%;
+}
+
+.homeDescription {
+	width: 45%;
+}
+
+.hilite {
+	color: #89c9b8;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+	.katie {
+		flex-direction: column;
+	}
+
+	.homeDescription {
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.homeDescription {
+		width: 75%;
+	}
+
+	.homePhoto {
+		width: 75%;
+	}
+}
