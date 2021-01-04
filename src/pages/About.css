@@ -10,3 +10,52 @@
 .caption {
 	font-size: 85%;
 }
+
+.basics {
+	padding: 5% 7%;
+}
+
+.basic-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.basic-item {
+	margin-top: 5%;
+	width: 25%;
+}
+
+.basic-item:not(:last-child) {
+	padding-right: 12px;
+}
+
+.descrip {
+	color: #092532;
+	font-size: 115%;
+}
+
+.basic-list ion-icon {
+	font-size: 450%;
+	margin-bottom: 5%;
+	color: #89c9b8;
+}
+
+@media only screen and (max-width: 768px) {
+	.basic-list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.basic-item {
+		width: 50%;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.basic-item {
+		width: 90%;
+	}
+}

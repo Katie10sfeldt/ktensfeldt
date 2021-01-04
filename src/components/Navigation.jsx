@@ -33,11 +33,6 @@ function Navigation() {
 							Portfolio
 						</Link>
 					</li>
-					<li className='nav-item navi'>
-						<Link className='nav-link' to='/Contact'>
-							Contact
-						</Link>
-					</li>
 				</ul>
 			</div>
 		</nav>
